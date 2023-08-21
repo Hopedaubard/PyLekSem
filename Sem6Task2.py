@@ -16,7 +16,7 @@
 #     return count
 
 def task30():
-    list_new = [200, 100, 6, 2, 54, 1, 5, 23]
+    list_new = [200, 100, 6, 2, 54, 1, 5, 1]
     print(find_between_less_elements(list_new))
 
 def find_between_less_elements(my_list):
@@ -26,4 +26,4 @@ def find_between_less_elements(my_list):
             count += 1
     return count
 
-        
+task30()       
